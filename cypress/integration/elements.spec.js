@@ -80,4 +80,10 @@ describe('Work with basic elements', () => {
             .should('have.value', '1graucomp')
 
     })
+
+    it.only('Combo Multiplo', () => {
+        cy.get('[data-testid=dataEsportes]')
+            .select(['natacao','Corrida','nada'])
+
+    })
 })
