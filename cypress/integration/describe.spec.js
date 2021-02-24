@@ -1,13 +1,11 @@
 /// <reference types="cypress" />
 
-it('A external test...', () =>{
-
+it.skip('A external test...', () =>{
 })
 
-describe('Shold group testes...',() => {
+describe.skip('Shold group testes...',() => {
     describe('Should group more specif testes...', () => {
         it('A specific test...', () =>{
-
         })
     })
 

@@ -12,7 +12,7 @@ describe('Cypress basics', () => {
 
         cy.title()
             .should('be.equal','Campo de Treinamento')
-            .should('contain','Campo')
+            .should('contain','Campo').pause()
 
         //TODO imprimir o log no console
         //TODO escrever o log em um campo de texto
